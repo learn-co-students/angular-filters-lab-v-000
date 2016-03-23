@@ -1,0 +1,300 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.1
+4 verbose readDependencies loading dependencies from /Users/Frank/Development/angular/angular-filters-lab-v-000/package.json
+5 warn package.json testing-controllers@1.0.0 No repository field.
+6 warn package.json testing-controllers@1.0.0 No license field.
+7 verbose install where, deps [ '/Users/Frank/Development/angular/angular-filters-lab-v-000',
+7 verbose install   [ 'jasmine-core',
+7 verbose install     'karma',
+7 verbose install     'karma-chrome-launcher',
+7 verbose install     'karma-jasmine',
+7 verbose install     'karma-spec-reporter' ] ]
+8 verbose install where, peers [ '/Users/Frank/Development/angular/angular-filters-lab-v-000',
+8 verbose install   [] ]
+9 verbose installManyTop reading for lifecycle /Users/Frank/Development/angular/angular-filters-lab-v-000/package.json
+10 info preinstall testing-controllers@1.0.0
+11 verbose installManyTop reading scoped package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/express/package.json
+12 verbose installManyTop reading scoped package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt/package.json
+13 verbose installManyTop reading scoped package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-contrib-concat/package.json
+14 verbose installManyTop reading scoped package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-contrib-copy/package.json
+15 verbose installManyTop reading scoped package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-contrib-jshint/package.json
+16 verbose installManyTop reading scoped package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-contrib-nodeunit/package.json
+17 verbose installManyTop reading scoped package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-contrib-uglify/package.json
+18 verbose installManyTop reading scoped package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-contrib-watch/package.json
+19 verbose installManyTop reading scoped package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-exec/package.json
+20 verbose installManyTop reading scoped package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-jsdoc/package.json
+21 verbose installManyTop reading scoped package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-karma/package.json
+22 verbose installManyTop reading scoped package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/jasmine-core/package.json
+23 verbose installManyTop reading scoped package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/karma/package.json
+24 verbose installManyTop reading scoped package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/karma-chrome-launcher/package.json
+25 verbose installManyTop reading scoped package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/karma-jasmine/package.json
+26 verbose installManyTop reading scoped package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/karma-phantomjs-launcher/package.json
+27 verbose installManyTop reading scoped package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/karma-spec-reporter/package.json
+28 info package.json karma-phantomjs-launcher@0.1.4 No README data
+29 info package.json grunt@0.4.2 No license field.
+30 info package.json grunt-contrib-concat@0.3.0 No license field.
+31 info package.json grunt-contrib-copy@0.5.0 No license field.
+32 info package.json grunt-contrib-jshint@0.8.0 No license field.
+33 info package.json grunt-contrib-nodeunit@0.3.0 No license field.
+34 info package.json grunt-contrib-uglify@0.2.2 No license field.
+35 info package.json grunt-contrib-watch@0.5.3 No license field.
+36 info package.json grunt-exec@0.4.5 No license field.
+37 info package.json grunt-jsdoc@0.5.4 No license field.
+38 verbose readDependencies loading dependencies from /Users/Frank/Development/angular/angular-filters-lab-v-000/package.json
+39 verbose targetResolver reading package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/express/package.json
+40 verbose targetResolver reading package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt/package.json
+41 verbose targetResolver reading package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-contrib-concat/package.json
+42 verbose targetResolver reading package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-contrib-copy/package.json
+43 verbose targetResolver reading package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-contrib-jshint/package.json
+44 verbose targetResolver reading package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-contrib-nodeunit/package.json
+45 verbose targetResolver reading package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-contrib-uglify/package.json
+46 verbose targetResolver reading package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-contrib-watch/package.json
+47 verbose targetResolver reading package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-exec/package.json
+48 verbose targetResolver reading package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-jsdoc/package.json
+49 verbose targetResolver reading package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-karma/package.json
+50 verbose targetResolver reading package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/jasmine-core/package.json
+51 verbose targetResolver reading package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/karma/package.json
+52 verbose targetResolver reading package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/karma-chrome-launcher/package.json
+53 verbose targetResolver reading package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/karma-jasmine/package.json
+54 verbose targetResolver reading package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/karma-phantomjs-launcher/package.json
+55 verbose targetResolver reading package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/karma-spec-reporter/package.json
+56 verbose targetResolver reading package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/.bin/grunt-jsdoc/package.json
+57 verbose targetResolver reading package data from /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/.bin/karma/package.json
+58 verbose already installed skipping karma@^0.13.19 /Users/Frank/Development/angular/angular-filters-lab-v-000
+59 verbose already installed skipping karma-chrome-launcher@^0.2.2 /Users/Frank/Development/angular/angular-filters-lab-v-000
+60 verbose already installed skipping karma-jasmine@^0.3.6 /Users/Frank/Development/angular/angular-filters-lab-v-000
+61 verbose already installed skipping karma-spec-reporter@0.0.23 /Users/Frank/Development/angular/angular-filters-lab-v-000
+62 verbose already installed skipping jasmine-core@^2.4.1 /Users/Frank/Development/angular/angular-filters-lab-v-000
+63 silly install resolved []
+64 info build /Users/Frank/Development/angular/angular-filters-lab-v-000
+65 info linkStuff testing-controllers@1.0.0
+66 silly linkStuff testing-controllers@1.0.0 has /Users/Frank/Development/angular as its parent node_modules
+67 verbose linkBins testing-controllers@1.0.0
+68 verbose linkMans testing-controllers@1.0.0
+69 verbose rebuildBundles testing-controllers@1.0.0
+70 verbose rebuildBundles [ '.bin',
+70 verbose rebuildBundles   'express',
+70 verbose rebuildBundles   'grunt',
+70 verbose rebuildBundles   'grunt-contrib-concat',
+70 verbose rebuildBundles   'grunt-contrib-copy',
+70 verbose rebuildBundles   'grunt-contrib-jshint',
+70 verbose rebuildBundles   'grunt-contrib-nodeunit',
+70 verbose rebuildBundles   'grunt-contrib-uglify',
+70 verbose rebuildBundles   'grunt-contrib-watch',
+70 verbose rebuildBundles   'grunt-exec',
+70 verbose rebuildBundles   'grunt-jsdoc',
+70 verbose rebuildBundles   'grunt-karma',
+70 verbose rebuildBundles   'jasmine-core',
+70 verbose rebuildBundles   'karma',
+70 verbose rebuildBundles   'karma-chrome-launcher',
+70 verbose rebuildBundles   'karma-jasmine',
+70 verbose rebuildBundles   'karma-phantomjs-launcher',
+70 verbose rebuildBundles   'karma-spec-reporter' ]
+71 verbose rebuild bundle /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/express
+72 info build /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/express
+73 info preinstall express@4.13.4
+74 info linkStuff express@4.13.4
+75 silly linkStuff express@4.13.4 has /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules as its parent node_modules
+76 verbose linkBins express@4.13.4
+77 verbose linkMans express@4.13.4
+78 verbose rebuildBundles express@4.13.4
+79 verbose rebuildBundles [ 'accepts',
+79 verbose rebuildBundles   'array-flatten',
+79 verbose rebuildBundles   'content-disposition',
+79 verbose rebuildBundles   'content-type',
+79 verbose rebuildBundles   'cookie',
+79 verbose rebuildBundles   'cookie-signature',
+79 verbose rebuildBundles   'debug',
+79 verbose rebuildBundles   'depd',
+79 verbose rebuildBundles   'escape-html',
+79 verbose rebuildBundles   'etag',
+79 verbose rebuildBundles   'finalhandler',
+79 verbose rebuildBundles   'fresh',
+79 verbose rebuildBundles   'merge-descriptors',
+79 verbose rebuildBundles   'methods',
+79 verbose rebuildBundles   'on-finished',
+79 verbose rebuildBundles   'parseurl',
+79 verbose rebuildBundles   'path-to-regexp',
+79 verbose rebuildBundles   'proxy-addr',
+79 verbose rebuildBundles   'qs',
+79 verbose rebuildBundles   'range-parser',
+79 verbose rebuildBundles   'send',
+79 verbose rebuildBundles   'serve-static',
+79 verbose rebuildBundles   'type-is',
+79 verbose rebuildBundles   'utils-merge',
+79 verbose rebuildBundles   'vary' ]
+80 info install express@4.13.4
+81 info postinstall express@4.13.4
+82 verbose rebuild bundle /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt
+83 info build /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt
+84 info preinstall grunt@0.4.2
+85 info linkStuff grunt@0.4.2
+86 silly linkStuff grunt@0.4.2 has /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules as its parent node_modules
+87 verbose linkBins grunt@0.4.2
+88 verbose linkMans grunt@0.4.2
+89 verbose rebuildBundles grunt@0.4.2
+90 verbose rebuildBundles [ '.bin',
+90 verbose rebuildBundles   'async',
+90 verbose rebuildBundles   'coffee-script',
+90 verbose rebuildBundles   'colors',
+90 verbose rebuildBundles   'dateformat',
+90 verbose rebuildBundles   'eventemitter2',
+90 verbose rebuildBundles   'exit',
+90 verbose rebuildBundles   'findup-sync',
+90 verbose rebuildBundles   'getobject',
+90 verbose rebuildBundles   'glob',
+90 verbose rebuildBundles   'hooker',
+90 verbose rebuildBundles   'iconv-lite',
+90 verbose rebuildBundles   'js-yaml',
+90 verbose rebuildBundles   'lodash',
+90 verbose rebuildBundles   'minimatch',
+90 verbose rebuildBundles   'nopt',
+90 verbose rebuildBundles   'rimraf',
+90 verbose rebuildBundles   'underscore.string',
+90 verbose rebuildBundles   'which' ]
+91 info install grunt@0.4.2
+92 info postinstall grunt@0.4.2
+93 verbose rebuild bundle /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-contrib-concat
+94 info build /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-contrib-concat
+95 info preinstall grunt-contrib-concat@0.3.0
+96 info linkStuff grunt-contrib-concat@0.3.0
+97 silly linkStuff grunt-contrib-concat@0.3.0 has /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules as its parent node_modules
+98 verbose linkBins grunt-contrib-concat@0.3.0
+99 verbose linkMans grunt-contrib-concat@0.3.0
+100 verbose rebuildBundles grunt-contrib-concat@0.3.0
+101 info install grunt-contrib-concat@0.3.0
+102 info postinstall grunt-contrib-concat@0.3.0
+103 verbose rebuild bundle /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-contrib-copy
+104 info build /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-contrib-copy
+105 info preinstall grunt-contrib-copy@0.5.0
+106 info linkStuff grunt-contrib-copy@0.5.0
+107 silly linkStuff grunt-contrib-copy@0.5.0 has /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules as its parent node_modules
+108 verbose linkBins grunt-contrib-copy@0.5.0
+109 verbose linkMans grunt-contrib-copy@0.5.0
+110 verbose rebuildBundles grunt-contrib-copy@0.5.0
+111 info install grunt-contrib-copy@0.5.0
+112 info postinstall grunt-contrib-copy@0.5.0
+113 verbose rebuild bundle /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-contrib-jshint
+114 info build /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-contrib-jshint
+115 info preinstall grunt-contrib-jshint@0.8.0
+116 info linkStuff grunt-contrib-jshint@0.8.0
+117 silly linkStuff grunt-contrib-jshint@0.8.0 has /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules as its parent node_modules
+118 verbose linkBins grunt-contrib-jshint@0.8.0
+119 verbose linkMans grunt-contrib-jshint@0.8.0
+120 verbose rebuildBundles grunt-contrib-jshint@0.8.0
+121 verbose rebuildBundles [ '.bin', 'jshint' ]
+122 info install grunt-contrib-jshint@0.8.0
+123 info postinstall grunt-contrib-jshint@0.8.0
+124 verbose rebuild bundle /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-contrib-nodeunit
+125 info build /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-contrib-nodeunit
+126 info preinstall grunt-contrib-nodeunit@0.3.0
+127 info linkStuff grunt-contrib-nodeunit@0.3.0
+128 silly linkStuff grunt-contrib-nodeunit@0.3.0 has /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules as its parent node_modules
+129 verbose linkBins grunt-contrib-nodeunit@0.3.0
+130 verbose linkMans grunt-contrib-nodeunit@0.3.0
+131 verbose rebuildBundles grunt-contrib-nodeunit@0.3.0
+132 verbose rebuildBundles [ 'nodeunit' ]
+133 info install grunt-contrib-nodeunit@0.3.0
+134 info postinstall grunt-contrib-nodeunit@0.3.0
+135 verbose rebuild bundle /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-contrib-uglify
+136 info build /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-contrib-uglify
+137 info preinstall grunt-contrib-uglify@0.2.2
+138 info linkStuff grunt-contrib-uglify@0.2.2
+139 silly linkStuff grunt-contrib-uglify@0.2.2 has /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules as its parent node_modules
+140 verbose linkBins grunt-contrib-uglify@0.2.2
+141 verbose linkMans grunt-contrib-uglify@0.2.2
+142 verbose rebuildBundles grunt-contrib-uglify@0.2.2
+143 verbose rebuildBundles [ '.bin', 'grunt-lib-contrib', 'uglify-js' ]
+144 info install grunt-contrib-uglify@0.2.2
+145 info postinstall grunt-contrib-uglify@0.2.2
+146 verbose rebuild bundle /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-contrib-watch
+147 info build /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-contrib-watch
+148 info preinstall grunt-contrib-watch@0.5.3
+149 info linkStuff grunt-contrib-watch@0.5.3
+150 silly linkStuff grunt-contrib-watch@0.5.3 has /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules as its parent node_modules
+151 verbose linkBins grunt-contrib-watch@0.5.3
+152 verbose linkMans grunt-contrib-watch@0.5.3
+153 verbose rebuildBundles grunt-contrib-watch@0.5.3
+154 verbose rebuildBundles [ '.bin', 'gaze', 'tiny-lr' ]
+155 info install grunt-contrib-watch@0.5.3
+156 info postinstall grunt-contrib-watch@0.5.3
+157 verbose rebuild bundle /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-exec
+158 info build /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-exec
+159 info preinstall grunt-exec@0.4.5
+160 info linkStuff grunt-exec@0.4.5
+161 silly linkStuff grunt-exec@0.4.5 has /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules as its parent node_modules
+162 verbose linkBins grunt-exec@0.4.5
+163 verbose linkMans grunt-exec@0.4.5
+164 verbose rebuildBundles grunt-exec@0.4.5
+165 info install grunt-exec@0.4.5
+166 info postinstall grunt-exec@0.4.5
+167 verbose rebuild bundle /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-jsdoc
+168 info build /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-jsdoc
+169 info preinstall grunt-jsdoc@0.5.4
+170 info linkStuff grunt-jsdoc@0.5.4
+171 silly linkStuff grunt-jsdoc@0.5.4 has /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules as its parent node_modules
+172 verbose linkBins grunt-jsdoc@0.5.4
+173 verbose link bins [ { 'grunt-jsdoc': 'bin/grunt-jsdoc' },
+173 verbose link bins   '/Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/.bin',
+173 verbose link bins   false ]
+174 verbose linkMans grunt-jsdoc@0.5.4
+175 verbose rebuildBundles grunt-jsdoc@0.5.4
+176 silly gentlyRm /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/.bin/grunt-jsdoc is being purged
+177 verbose gentlyRm don't care about contents; nuking /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/.bin/grunt-jsdoc
+178 silly vacuum-fs purging /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/.bin/grunt-jsdoc
+179 silly vacuum-fs quitting because other entries in /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/.bin
+180 info install grunt-jsdoc@0.5.4
+181 info postinstall grunt-jsdoc@0.5.4
+182 verbose rebuild bundle /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-karma
+183 info build /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-karma
+184 info preinstall grunt-karma@0.8.3
+185 info linkStuff grunt-karma@0.8.3
+186 silly linkStuff grunt-karma@0.8.3 has /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules as its parent node_modules
+187 verbose linkBins grunt-karma@0.8.3
+188 verbose linkMans grunt-karma@0.8.3
+189 verbose rebuildBundles grunt-karma@0.8.3
+190 verbose rebuildBundles [ 'lodash' ]
+191 info install grunt-karma@0.8.3
+192 info postinstall grunt-karma@0.8.3
+193 verbose rebuild bundle /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/karma-phantomjs-launcher
+194 info build /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/karma-phantomjs-launcher
+195 info preinstall karma-phantomjs-launcher@0.1.4
+196 info linkStuff karma-phantomjs-launcher@0.1.4
+197 silly linkStuff karma-phantomjs-launcher@0.1.4 has /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules as its parent node_modules
+198 verbose linkBins karma-phantomjs-launcher@0.1.4
+199 verbose linkMans karma-phantomjs-launcher@0.1.4
+200 verbose rebuildBundles karma-phantomjs-launcher@0.1.4
+201 verbose rebuildBundles [ '.bin', 'phantomjs' ]
+202 info install karma-phantomjs-launcher@0.1.4
+203 info postinstall karma-phantomjs-launcher@0.1.4
+204 info install testing-controllers@1.0.0
+205 info postinstall testing-controllers@1.0.0
+206 info prepublish testing-controllers@1.0.0
+207 verbose validateInstall loading /Users/Frank/Development/angular/angular-filters-lab-v-000/package.json for validation
+208 warn unmet dependency /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/node_modules/tap/node_modules/nyc/node_modules/istanbul requires supports-color@'^3.1.0' but will load
+208 warn unmet dependency /Users/Frank/Development/angular/angular-filters-lab-v-000/node_modules/grunt-contrib-nodeunit/node_modules/nodeunit/node_modules/tap/node_modules/supports-color,
+208 warn unmet dependency which is version 1.3.1
+209 verbose stack Error: The package karma@0.13.22 does not satisfy its siblings' peerDependencies requirements!
+209 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+209 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+209 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+209 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+209 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+209 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+209 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+209 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+209 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+209 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+210 verbose cwd /Users/Frank/Development/angular/angular-filters-lab-v-000
+211 error Darwin 15.3.0
+212 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+213 error node v4.4.1
+214 error npm  v2.14.20
+215 error code EPEERINVALID
+216 error peerinvalid The package karma@0.13.22 does not satisfy its siblings' peerDependencies requirements!
+216 error peerinvalid Peer karma-spec-reporter@0.0.23 wants karma@>=0.9
+216 error peerinvalid Peer grunt-karma@0.8.3 wants karma@~0.12.0
+216 error peerinvalid Peer karma-phantomjs-launcher@0.1.4 wants karma@>=0.9
+217 verbose exit [ 1, true ]
