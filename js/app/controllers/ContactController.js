@@ -3126,6 +3126,7 @@ function ContactController() {
             }
         }
     ];
+    
 }
 
 angular
