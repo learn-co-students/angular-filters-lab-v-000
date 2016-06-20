@@ -2,7 +2,7 @@ var path = require('path');
 
 describe('Filters Test', function() {
 	it('should filter the list by name', function() {
-		browser.get('http://localhost:8080');
+		browser.get('https://learn-angular-dakotalmartinez.c9users.io/angular-filters/angular-filters-lab-v-000/index.html');
 
 		element(by.model('ctrl.search')).sendKeys('Bob');
 
@@ -11,7 +11,7 @@ describe('Filters Test', function() {
 	});
 
 	it('should format the date correctly ', function() {
-		browser.get('http://localhost:8080');
+		browser.get('https://learn-angular-dakotalmartinez.c9users.io/angular-filters/angular-filters-lab-v-000/index.html');
 
 		element(by.model('ctrl.search')).sendKeys('Bob');
 
@@ -23,7 +23,7 @@ describe('Filters Test', function() {
 
 
 	it('should filter the list by phone number', function() {
-		browser.get('http://localhost:8080');
+		browser.get('https://learn-angular-dakotalmartinez.c9users.io/angular-filters/angular-filters-lab-v-000/index.html');
 
 		element(by.model('ctrl.search')).sendKeys('015242 99250');
 
