@@ -60,7 +60,7 @@
                         <td>Gender</td>
                     </tr>
                 </thead>
-                <tr ng-repeat="contact in ctrl.contacts">
+                <tr ng-repeat="contact in ctrl.contacts | filter: ctrl.search">
                     <td><img ng-src="{{ contact.picture.thumbnail }}" /></td>
                     <td>{{ contact.name.title }}</td>
                     <td>{{ contact.name.first }}</td>
