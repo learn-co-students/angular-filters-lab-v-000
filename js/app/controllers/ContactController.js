@@ -3126,6 +3126,8 @@ function ContactController() {
             }
         }
     ];
+
+    this.search = ''
 }
 
 angular
