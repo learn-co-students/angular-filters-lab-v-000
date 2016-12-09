@@ -3126,8 +3126,13 @@ function ContactController($filter) {
             }
         }
     ];
-    // this.search = .val();
-    this.filteredContacts = $filter('filter')(this.contacts, this.search);
+    this.search ="";
+    if(this.search == ""){
+      this.filteredList = this.contacts;
+    }
+      this.updateSearch = function(){
+      this.filteredContacts = $filter('filter')(this.contacts, this.search);
+    };
 
 }
 
