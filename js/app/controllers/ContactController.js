@@ -1,4 +1,5 @@
-function ContactController() {
+function ContactController($filter) {
+
     this.contacts = [
         {
             "gender": "male",
