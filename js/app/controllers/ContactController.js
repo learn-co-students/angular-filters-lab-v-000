@@ -3126,7 +3126,11 @@ function ContactController() {
             }
         }
     ];
+     //this.filteredContact = $filter('filter')(this.contacts, this.search);
+
 }
+
+
 
 angular
     .module('app')
