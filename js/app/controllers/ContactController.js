@@ -1,4 +1,4 @@
-function ContactController() {
+function ContactController($filter) {
     this.contacts = [
         {
             "gender": "male",
@@ -3126,6 +3126,14 @@ function ContactController() {
             }
         }
     ];
+    this.search ="";
+    if(this.search == ""){
+      this.filteredList = this.contacts;
+    }
+      this.updateSearch = function(){
+      this.filteredContacts = $filter('filter')(this.contacts, this.search);
+    };
+
 }
 
 angular
