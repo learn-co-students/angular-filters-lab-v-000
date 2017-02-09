@@ -1,0 +1,29 @@
+[
+  {
+    "description": "Filters Test should filter the list by name",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 685
+  },
+  {
+    "description": "Filters Test should format the date correctly ",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 759
+  },
+  {
+    "description": "Filters Test should filter the list by phone number",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 667
+  }
+]
