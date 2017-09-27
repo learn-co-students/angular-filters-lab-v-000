@@ -3126,6 +3126,9 @@ function ContactController() {
             }
         }
     ];
+
+    // this.search ='';
+    // this.filteredContacts = $filter('filter')(this.contacts, this.search);
 }
 
 angular
