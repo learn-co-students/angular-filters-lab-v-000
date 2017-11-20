@@ -1,4 +1,5 @@
 function ContactController() {
+
     this.contacts = [
         {
             "gender": "male",
