@@ -1,6 +1,7 @@
 function ContactController() {
     this.contacts = [
         {
+            //comment comment
             "gender": "male",
             "name": {
                 "title": "mr",
