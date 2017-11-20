@@ -3128,6 +3128,7 @@ function ContactController() {
     ];
 }
 
+
 angular
     .module('app')
     .controller('ContactController', ContactController);
